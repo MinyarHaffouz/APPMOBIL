@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bcg4">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:text="Smart Agriculture"
+        android:textColor="@color/green"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/p6"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"/>
+
+    <Button
+        android:id="@+id/signInButton"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:text="SignIn"
+        android:textColor="@android:color/white"
+        android:background="#FF5722"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_margin="50dp"
+         />
+
+    <Button
+        android:id="@+id/createButton"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:textColor="@android:color/white"
+        android:background="#2196F3"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"/>
+
+
+</LinearLayout>

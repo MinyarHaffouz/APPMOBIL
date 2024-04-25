@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <!-- Boutons pour Actions et Journalisation -->
+    <!-- Textarea pour les notes -->
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="196dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/tomate" />
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_actions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Actions" />
+
+        <Button
+            android:id="@+id/button_journalisation"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Journalisation" />
+
+
+        <!-- Textarea pour afficher les informations -->
+
+
+        <!-- Liste déroulante pour les indicateurs -->
+        <Spinner
+            android:id="@+id/spinner_indicateurs"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="30dp"
+        android:text="Note:"
+        android:background="@drawable/rounded_edittext_background"
+        android:gravity="top"
+        android:textColor="@color/black" />
+
+</LinearLayout>
