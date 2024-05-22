@@ -13,17 +13,29 @@
         android:theme="@style/Theme.Test"
         tools:targetApi="31">
         <activity
-            android:name=".DescriptionPlantes"
+            android:name=".FarmManagement"
             android:exported="false" />
         <activity
-            android:name=".Plante1"
-            android:exported="false"
-            android:theme="@style/Theme.Test" />
+            android:name=".ouvrier"
+            android:exported="false" />
         <activity
-            android:name=".cercle"
-            android:exported="false"
-            android:label="@string/title_activity_cercle"
-            android:theme="@style/Theme.Test" />
+            android:name=".Action"
+            android:exported="false" />
+        <activity
+            android:name=".User"
+            android:exported="false" />
+        <activity
+            android:name=".SplachScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DescriptionPlantes"
+            android:exported="false" />
         <activity
             android:name=".Plantes"
             android:exported="false" />

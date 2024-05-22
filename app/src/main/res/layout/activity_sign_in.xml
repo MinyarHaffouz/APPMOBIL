@@ -3,17 +3,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    >
+    android:background="@drawable/bcg1">
 
 
 
-        <ImageView
-            android:id="@+id/logoImageView"
-            android:layout_width="200dp"
-            android:layout_height="200dp"
-            android:background="@drawable/p6"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="1dp"/>
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="208dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/p4" />
 
         <!-- Other views (TextViews, EditTexts, Button) remain the same -->
 

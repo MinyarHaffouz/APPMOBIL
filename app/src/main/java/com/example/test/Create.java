@@ -39,7 +39,7 @@ public class Create extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Add your signUpButton logic here
-                Intent intent = new Intent(Create.this, Plantes.class);
+                Intent intent = new Intent(Create.this, SignIn.class);
                 startActivity(intent);
             }
         });
