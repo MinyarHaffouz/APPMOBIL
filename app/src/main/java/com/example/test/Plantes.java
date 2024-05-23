@@ -22,7 +22,7 @@ public class Plantes extends AppCompatActivity {
                 int imageResId = (int) v.getTag();
 
                 // Création de l'intent pour ouvrir l'activité SuiviPlantes
-                Intent intent = new Intent(Plantes.this, SuiviPlantes.class);
+                Intent intent = new Intent(Plantes.this, Observations.class);
                 // Ajout de l'ID de l'image à l'intent
                 intent.putExtra("imageResId", imageResId);
                 // Démarrage de l'activité SuiviPlantes
